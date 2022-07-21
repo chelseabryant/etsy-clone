@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="top-logo-searchbar">
+        <h1 className="etsy-logo">Etsy</h1>
+        <div className="searchbar-wrapper">
+          <input className="searchbar" type="text" placeholder="Search for anything"></input>
+        </div>
+      </div>
+      <div className="menu">
+        <div className="menu-item">Summer Clothing & Accessories</div>
+        <div className="menu-item">Jewelry & Accessories</div>
+        <div className="menu-item">Clothing & Shoes</div>
+        <div className="menu-item">Home & Living</div>
+        <div className="menu-item">Wedding & Party</div>
+        <div className="menu-item">Toys & Entertainment</div>
+        <div className="menu-item">Art & Collectibles</div>
+        <div className="menu-item">Craft Supplies</div>
+        <div className="menu-item">Gifts & Gift Cards</div>
+      </div>
     </div>
   );
 }
