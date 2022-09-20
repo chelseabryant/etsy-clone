@@ -77,6 +77,89 @@ function App() {
           <div>baking utensils</div>
         </div>
       </div>
+      <div className="whitespace"></div>
+
+      <div className="staggard-images">
+        <div className="columns">
+          <div className="price-container">
+            <img
+              src="https://images.unsplash.com/photo-1533158307587-828f0a76ef46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+              className="photo-short"
+              alt=""
+            />
+            <div className="price">$$$</div>
+          </div>
+          <div className="price-container">
+            <img
+              src="https://images.unsplash.com/photo-1518675219903-c682c4b16b1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+              className="photo-tall"
+              alt=""
+            />
+            <div className="price">$$$</div>
+          </div>
+        </div>
+        <div className="columns">
+          <div className="price-container">
+            <img
+              src="https://images.unsplash.com/photo-1556804335-2fa563e93aae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+              className="photo-tall"
+              alt=""
+            />
+            <div className="price">$$$</div>
+          </div>
+          <div className="price-container">
+            <img
+              src="https://images.unsplash.com/photo-1533713692156-f70938dc0d54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+              className="photo-short"
+              alt=""
+            />
+            <div className="price">$$$</div>
+          </div>
+        </div>
+        <div className="columns">
+          <div className="price-container">
+            <img
+              src="https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+              className="photo-short"
+              alt=""
+            />
+            <div className="price">$$$</div>
+          </div>
+          <div className="price-container">
+            <img
+              src="https://images.unsplash.com/photo-1511201173873-c327e63eb6c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+              className="photo-tall"
+              alt=""
+            />
+            <div className="price">$$$</div>
+          </div>
+        </div>
+        <div className="columns">
+          <div className="price-container">
+            <img
+              src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+              className="photo-tall"
+              alt=""
+            />
+            <div className="price">$$$</div>
+          </div>
+          <div className="price-container">
+            <img
+              src="https://images.unsplash.com/photo-1498747946579-bde604cb8f44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
+              className="photo-short"
+              alt=""
+            />
+            <div className="price">$$$</div>
+          </div>
+        </div>
+      </div>
+      <div className="sponsor-space">
+        <p>Sponsored by Etsy sellers</p>
+        <p>
+          Fun factL behind every sponsored item there is an Etsy seller hoping
+          you'll check out their shop
+        </p>
+      </div>
     </div>
   )
 }
