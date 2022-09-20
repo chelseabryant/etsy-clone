@@ -26,6 +26,7 @@
   width: 100%;
   height: 48px;
   padding: 9px 42px 9px 18px;
+
 }
 .menu {
   height: 50px;
@@ -38,4 +39,35 @@
 .menu-item {
   height: 50px;
   
+}
+.welcome-border {
+  background-color: #ffedca;
+ width: 100%;
+ height: 72px
+}
+
+.welcome {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-align: center;
+ padding: 20px 0
+}
+.shop-link-body {
+  height: 50px;
+  width: 100%;
+  padding: 0px 36px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffedca;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.shop-links {
+  text-align: center;
+}
+
+.circle-image {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
 }
