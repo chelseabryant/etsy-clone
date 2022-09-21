@@ -29,7 +29,7 @@
 
 }
 .menu {
-  height: 50px;
+  height: 30px;
   width: 100%;
   padding: 0px 36px;
   font-size: 13px;
@@ -37,8 +37,8 @@
   justify-content: space-between;
 }
 .menu-item {
-  height: 50px;
-  
+  height: 40px;
+  font-size: 11px;
 }
 .welcome-border {
   background-color: #ffedca;
@@ -113,9 +113,29 @@
 }
 
 .sponsor-space {
-  height: 150px;
+  height: 60px;
   margin-top: 80px;
   margin-left: 45px;
+
 }
 .sponsor {
+  font-weight: bold;
+  font-size: larger;
+  margin-bottom: 10px;
+}
+.fun-fact {
+  color: grey;
+  margin-top: 10px;
+}
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.bottom-image {
+  height: 170px;
+  width: 170px;
+  border-radius: 3%;
+  margin: 10px;
 }

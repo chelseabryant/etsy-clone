@@ -154,11 +154,53 @@ function App() {
         </div>
       </div>
       <div className="sponsor-space">
-        <p>Sponsored by Etsy sellers</p>
-        <p>
-          Fun factL behind every sponsored item there is an Etsy seller hoping
+        <p className="sponsor">Sponsored by Etsy sellers</p>
+        <p className="fun-fact">
+          Fun fact: behind every sponsored item there is an Etsy seller hoping
           you'll check out their shop
         </p>
+      </div>
+      <div className="bottom-row">
+        <div className="price-container">
+          <img
+            src="https://images.unsplash.com/photo-1538775185588-21b672fbe836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+            className="bottom-image"
+            alt=""
+          />
+          <div className="price">$$$</div>
+        </div>
+        <div className="price-container">
+          <img
+            src="https://images.unsplash.com/photo-1531525645387-7f14be1bdbbd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+            className="bottom-image"
+            alt=""
+          />
+          <div className="price">$$$</div>
+        </div>
+        <div className="price-container">
+          <img
+            src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+            className="bottom-image"
+            alt=""
+          />
+          <div className="price">$$$</div>
+        </div>
+        <div className="price-container">
+          <img
+            src="https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=836&q=80"
+            className="bottom-image"
+            alt=""
+          />
+          <div className="price">$$$</div>
+        </div>
+        <div className="price-container">
+          <img
+            src="https://images.unsplash.com/photo-1592244851292-3364b6c46c22?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+            className="bottom-image"
+            alt=""
+          />
+          <div className="price">$$$</div>
+        </div>
       </div>
     </div>
   )
