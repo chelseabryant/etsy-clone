@@ -53,15 +53,27 @@
  padding: 20px 0
 }
 .shop-link-body {
-  height: 50px;
+  display: none;
   width: 100%;
   padding: 0px 36px;
-  display: flex;
   justify-content: space-between;
   background-color: #ffedca;
   padding-left: 120px;
   padding-right: 120px;
 }
+
+@media (min-width: 768px) {
+  .shop-link-body {
+    display: flex;
+  }
+}
+
+@media (min-width: 1280px) {
+  .shop-link-body {
+    background: green;
+  }
+}
+
 .shop-links {
   text-align: center;
 }
@@ -103,13 +115,29 @@
 
 }
 .price {
-  
-    position: absolute;
-    bottom: 18px;
-    left: 16px;
-    background-color: white;
+  position: absolute;
+  bottom: 18px;
+  left: 16px;
+  background-color: white;
   width: 50px;
   border-radius: 25%;
+}
+
+.heart-icon {
+  position: absolute;
+  top: 32px;
+  right: 16px;
+  background-color: white;
+  border: 1px black;
+  padding: 8px;
+  border-radius: 50%;
+  opacity: .5;
+  transition: .3s;
+}
+
+.heart-icon:hover {
+  opacity: 1;
+  transform: translateY(-16px);
 }
 
 .sponsor-space {
